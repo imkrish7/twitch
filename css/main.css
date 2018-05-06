@@ -1,0 +1,42 @@
+body {
+    /* background: #00adff; */
+    background: url('../images/twitch.png');
+}
+
+.list {
+    /* margin:1px; */
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-content: space-around
+}
+
+img {
+    width: 50px;
+}
+
+.header {
+    background: url('../images/maxresdefault.jpg');
+    color: white;
+}
+
+.online {
+    font-size: 20px;
+    color: black;
+    text-decoration-color: black;
+}
+
+li:nth-child(odd) {
+    background: grey;
+    /* color:white; */
+}
+
+li:nth-child(even) {
+    background: teal;
+    /* color:white; */
+}
+
+li:nth-child(3n) {
+    background: white;
+    /* color:teal; */
+}
